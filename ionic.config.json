@@ -1,0 +1,7 @@
+{
+  "name": "jee_practice",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
