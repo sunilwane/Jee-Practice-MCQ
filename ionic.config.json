@@ -3,5 +3,12 @@
   "integrations": {
     "capacitor": {}
   },
-  "type": "react-vite"
+  "type": "react-vite",
+  "proxies": [
+    {
+      "target": "http://localhost:5173",
+      "changeOrigin": true,
+      "secure": false
+    }
+  ]
 }

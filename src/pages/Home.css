@@ -1,0 +1,108 @@
+.LoginpageContaner {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.img_logo {
+  align-items: center;
+  width: 180px;
+  /* height: 60px; */
+}
+.login_items {
+  display: flex;
+  width: 100%;
+  margin-top: 5%;
+  flex-direction: column;
+  gap: 10px;
+}
+.login_items h1 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.login_items label {
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+}
+
+[type="text"],
+[type="number"] {
+  height: 40px;
+  border: 2px solid #c6c6c6;
+  outline: none;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.inputcheckboxandforgetbtn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.inputcheckboxandforgetbtn .iontext {
+  color: red;
+}
+
+.btn_login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.btn_login button {
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #351a96;
+  color: #fff;
+  font-weight: 600;
+  font-family: 18px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 12px;
+}
+
+.or_line {
+  display: flex;
+  align-items: center;
+  gap: "10px";
+  width: 100%;
+}
+.hrtag {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+  width: 48%;
+}
+
+.social_media {
+  width: 100%;
+  display: flex;
+  gap: 10%;
+}
+.social_media .card_1 {
+  width: 45%;
+  height: 45px;
+  border: 2px solid #c6c6c6;
+  background-color: none !important;
+  border-radius: 12px;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px;
+}
+
+.Signpu_and_in_btn {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 5px;
+}
