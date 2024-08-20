@@ -16,6 +16,6 @@ export default defineConfig({
     setupFiles: './src/setupTests.ts',
   },
   build: {
-    outDir: 'public',
+    outDir: 'build',
   },
 })
